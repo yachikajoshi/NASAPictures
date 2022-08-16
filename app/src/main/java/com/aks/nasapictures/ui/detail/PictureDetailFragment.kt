@@ -14,8 +14,8 @@ import com.aks.nasapictures.R
 import com.aks.nasapictures.databinding.FragmentPictureDetailBinding
 import com.aks.nasapictures.ui.NASAPicturesActivity
 import com.aks.nasapictures.ui.PictureListViewModel
-import com.aks.nasapictures.ui.datasource.model.PictureData
-import com.aks.nasapictures.ui.utils.StatusHandler
+import com.aks.nasapictures.datasource.model.PictureData
+import com.aks.nasapictures.utils.StatusHandler
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 

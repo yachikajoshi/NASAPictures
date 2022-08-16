@@ -1,4 +1,4 @@
-package com.aks.nasapictures.ui.utils
+package com.aks.nasapictures.utils
 
 import android.widget.ImageView
 import androidx.core.net.toUri

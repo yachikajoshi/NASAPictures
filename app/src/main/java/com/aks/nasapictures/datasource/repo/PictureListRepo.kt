@@ -1,8 +1,8 @@
-package com.aks.nasapictures.ui.datasource.repo
+package com.aks.nasapictures.datasource.repo
 
 import android.content.Context
-import com.aks.nasapictures.ui.datasource.model.PictureData
-import com.aks.nasapictures.ui.utils.StatusHandler
+import com.aks.nasapictures.datasource.model.PictureData
+import com.aks.nasapictures.utils.StatusHandler
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import dagger.hilt.android.qualifiers.ApplicationContext

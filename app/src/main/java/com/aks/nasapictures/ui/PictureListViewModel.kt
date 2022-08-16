@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.aks.nasapictures.ui.datasource.model.PictureData
-import com.aks.nasapictures.ui.datasource.repo.IPictureListRepo
-import com.aks.nasapictures.ui.utils.StatusHandler
+import com.aks.nasapictures.datasource.model.PictureData
+import com.aks.nasapictures.datasource.repo.IPictureListRepo
+import com.aks.nasapictures.utils.StatusHandler
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

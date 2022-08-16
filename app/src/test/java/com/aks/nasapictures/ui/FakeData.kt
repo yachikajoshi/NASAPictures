@@ -1,6 +1,6 @@
 package com.aks.nasapictures.ui
 
-import com.aks.nasapictures.ui.datasource.model.PictureData
+import com.aks.nasapictures.datasource.model.PictureData
 
 object FakeData {
 

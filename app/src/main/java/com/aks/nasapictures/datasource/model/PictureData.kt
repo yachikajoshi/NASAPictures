@@ -1,4 +1,4 @@
-package com.aks.nasapictures.ui.datasource.model
+package com.aks.nasapictures.datasource.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.aks.nasapictures.R
 import com.aks.nasapictures.databinding.FragmentPictureListBinding
 import com.aks.nasapictures.ui.PictureListViewModel
-import com.aks.nasapictures.ui.utils.StatusHandler
+import com.aks.nasapictures.utils.StatusHandler
 import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 

@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.aks.nasapictures.databinding.DetailItemBinding
-import com.aks.nasapictures.ui.datasource.model.PictureData
-import com.aks.nasapictures.ui.utils.bindImageUrl
+import com.aks.nasapictures.datasource.model.PictureData
+import com.aks.nasapictures.utils.bindImageUrl
 
 class DetailPagerAdapter :
     ListAdapter<PictureData, DetailPagerAdapter.DetailPagerViewHolder>(PicturesDiffUtil) {

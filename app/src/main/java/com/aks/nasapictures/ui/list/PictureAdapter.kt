@@ -6,8 +6,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.aks.nasapictures.databinding.PictureItemBinding
-import com.aks.nasapictures.ui.datasource.model.PictureData
-import com.aks.nasapictures.ui.utils.bindImageUrl
+import com.aks.nasapictures.datasource.model.PictureData
+import com.aks.nasapictures.utils.bindImageUrl
 
 class PictureAdapter(private var itemClickListener: (position: Int) -> Unit) :
     ListAdapter<PictureData, PictureAdapter.PictureViewHolder>(PicturesDiffUtil) {

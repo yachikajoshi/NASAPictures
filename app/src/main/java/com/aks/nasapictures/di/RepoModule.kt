@@ -1,8 +1,8 @@
-package com.aks.nasapictures.ui.di
+package com.aks.nasapictures.di
 
 import android.content.Context
-import com.aks.nasapictures.ui.datasource.repo.IPictureListRepo
-import com.aks.nasapictures.ui.datasource.repo.PictureListRepo
+import com.aks.nasapictures.datasource.repo.IPictureListRepo
+import com.aks.nasapictures.datasource.repo.PictureListRepo
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

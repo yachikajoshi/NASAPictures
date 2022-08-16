@@ -1,8 +1,8 @@
 package com.aks.nasapictures.ui
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.aks.nasapictures.ui.datasource.repo.IPictureListRepo
-import com.aks.nasapictures.ui.utils.StatusHandler
+import com.aks.nasapictures.datasource.repo.IPictureListRepo
+import com.aks.nasapictures.utils.StatusHandler
 import com.aks.nasapictures.util.getOrAwaitValue
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
