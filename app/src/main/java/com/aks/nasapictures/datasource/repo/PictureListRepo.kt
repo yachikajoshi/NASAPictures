@@ -9,7 +9,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import java.io.IOException
 import javax.inject.Inject
 
-class PictureListRepo @Inject constructor(@ApplicationContext var context: Context) :
+class PictureListRepo(var context: Context) :
     IPictureListRepo {
 
     override suspend fun getPictureData(): StatusHandler<List<PictureData>> {
@@ -23,5 +23,4 @@ class PictureListRepo @Inject constructor(@ApplicationContext var context: Conte
             StatusHandler.Error(ioException)
         }
     }
-
 }

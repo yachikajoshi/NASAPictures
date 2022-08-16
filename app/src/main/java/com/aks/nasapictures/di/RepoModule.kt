@@ -19,5 +19,4 @@ class RepoModule {
     fun providePictureRepo(@ApplicationContext context: Context): IPictureListRepo {
         return PictureListRepo(context)
     }
-
 }
