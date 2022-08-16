@@ -9,5 +9,18 @@
         android:id="@+id/nasaPicturesDashboard"
         android:name="com.aks.nasapictures.ui.list.PicturesList"
         android:label="NASA Pictures"
-        tools:layout="@layout/fragment_picture_list"/>
+        tools:layout="@layout/fragment_picture_list">
+        <action
+            android:id="@+id/action_nasaPicturesDashboard_to_pictureDetail"
+            app:destination="@id/pictureDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/pictureDetail"
+        android:name="com.aks.nasapictures.ui.detail.PictureDetailFragment"
+        tools:layout="@layout/fragment_picture_detail">
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </fragment>
+
 </navigation>

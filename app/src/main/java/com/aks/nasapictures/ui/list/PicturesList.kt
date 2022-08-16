@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.hilt.navigation.fragment.hiltNavGraphViewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.aks.nasapictures.R
@@ -26,7 +27,11 @@ class PicturesList : Fragment(){
 
 
     private fun onItemClick(position: Int) {
-
+        findNavController().navigate(
+            PicturesListDirections.actionNasaPicturesDashboardToPictureDetail(
+                position
+            )
+        )
     }
 
     override fun onCreateView(

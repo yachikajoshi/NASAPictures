@@ -10,7 +10,9 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.aks.nasapictures.R
 import com.aks.nasapictures.databinding.ActivityNasapicturesBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class NASAPicturesActivity : AppCompatActivity() {
     private lateinit var nasaPicturesBinding: ActivityNasapicturesBinding
     private lateinit var navController: NavController

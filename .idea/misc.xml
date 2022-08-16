@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/DELL/AndroidStudioProjects/NASAPictures/app/src/main/res/drawable-v24/ic_broken_image.xml" value="0.111" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/NASAPictures/app/src/main/res/layout/activity_nasapictures.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/NASAPictures/app/src/main/res/layout/detail_item.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/NASAPictures/app/src/main/res/layout/fragment_picture_detail.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/NASAPictures/app/src/main/res/layout/fragment_picture_list.xml" value="0.14130434782608695" />
       </map>
     </option>
